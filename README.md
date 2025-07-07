@@ -27,11 +27,21 @@ A serverless job application portal built with:
   - Uploads the resume to **S3**
   - Stores applicant data in **DynamoDB**
 
+## Screenshot:
+
+![Screenshot 2025-07-08 002820](https://github.com/user-attachments/assets/5e6410f3-1dde-4c93-8e62-15d802690731)
+
+
 ### 👥 Recruiter Portal:
 - Recruiters access a protected page to view all applications.
 - The page sends a GET request to another **Lambda function** via **API Gateway**.
 - Application details are retrieved from **DynamoDB**.
 - Resume links are fetched from **S3** and can be opened directly.
+
+## Screenshot:
+
+![recruiter-portal](https://github.com/user-attachments/assets/311ad1f0-a2c0-4e13-8561-023f6307b903)
+
 
 ## 🛠 Configuration
 
